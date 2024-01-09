@@ -1,0 +1,220 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Set a light grey background for the entire project */
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  /* Main container styling */
+  .main {
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Remove default list styling for ul */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for links */
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  /* Button group styling */
+  .button-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 5px;
+  }
+  
+  /* Styling for selectable buttons */
+  .selectable-button {
+    background-color: #bc4ccb;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Styling for selected button */
+  .selectable-button.selected {
+    background-color: #ab7fb6;
+    color: rgb(6, 6, 6);
+  }
+  
+  /* Hover effect for buttons */
+  .selectable-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    width: 90%;
+    margin: 20px auto;
+    user-select: none;
+    position: relative;
+  }
+  
+  /* Styling for dropdown button */
+  .dropdown .dropdown-btn {
+    padding: 15px 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  /* Styling for dropdown content */
+  .dropdown .dropdown-content {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Styling for dropdown items */
+  .dropdown .dropdown-content .dropdown-item {
+    padding: 10px;
+    transition: all 0.3s;
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown .dropdown-content .dropdown-item:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #9978b7;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 40px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(136, 106, 147, 0.25);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for container */
+  .container:hover {
+    background-color: #4b3a4e;
+  }
+  
+  /* Sections styling */
+  .quantity-section, .deadline-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  /* Styling for labels */
+  label {
+    font-weight: bold;
+    color: #fff;
+    margin: 2px;
+  }
+  
+  /* Styling for inputs and selects */
+  input, select {
+    background-color: #d6b4d99b;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Focus styles for inputs and selects */
+  input:focus, select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Styling for select dropdown */
+  select {
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Additional styles for different types (optional) */
+  .quantity-section.words input {
+    width: 80px;
+  }
+  
+  /* Proceed button container positioning */
+  .proceed-button-container {
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  /* Styling for the proceed button */
+  .proceed-button {
+    background-color: #ffc966;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect for the proceed button */
+  .proceed-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Styling for the price and order section */
+  .priceAndOrder {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: black; /* You may want to change this color as per your design */
+  }
+.price-section label{
+    color: #000;
+}  
