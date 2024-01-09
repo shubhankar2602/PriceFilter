@@ -49,17 +49,17 @@ Make sure you have the following tools installed on your machine:
 ## File Structure
 The project is organized as follows:
 
-src/
-  components/
-  ButtonGroup.js: Main component for selecting academic services and configuring the order.
-  PaperTypeDropdown.js: Dropdown component for selecting paper types.
-  QuantityAndDeadline.js: Component for specifying quantity and deadline.
-  styles/
-  style.css: Global CSS styles for the application.
-  index.js: Entry point of the React application.
-  App.js: Main application component.
-public/
-  index.html: HTML template for the application.
+* src/
+  - components/
+  - App.js: Main component for selecting academic services and configuring the order.
+  - PaperTypeDropdown.js: Dropdown component for selecting paper types.
+  - QuantityAndDeadline.js: Component for specifying quantity and deadline.
+* styles/
+  - style.css: Global CSS styles for the application.
+  - index.js: Entry point of the React application.
+  - App.js: Main application component.
+* public/
+  - index.html: HTML template for the application.
 
 ## Contributing
   Contributions are welcome! Feel free to open issues or submit pull requests.
